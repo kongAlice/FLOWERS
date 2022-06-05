@@ -1,0 +1,38 @@
+<!--pages/message/message.wxml-->
+
+<view class="bg" style="opacity:{{0.4}}" >
+    <image class="bg-image" mode="scaleToFill"></image>
+</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="a">“花花公子”智能种植小助手</view>
+<view class="ffff" >
+<input class="inputindex" placeholder="输入花名" placeholder-class='iconfont icon-sousuo mid-font ' placeholder-style="font-size:23px; color:#778899;text-align:center;" style="font-weight:bolder; font-size:25px; color:#999999; text-align:center;margin-top:10px;" bindinput="inputname" > </input>
+</view>
+<view class="ffff" >
+</view>
+<view>
+<button class="btn-index" bindtap="tijiao">查看</button>
+<modal hidden="{{tijiao}}" no-cancel bindconfirm="back"><view>提交成功</view></modal>
+</view>
+<view class="a6">
+<view class="a2" >点击按钮查看参数</view>
+<view class="a2">温度</view>
+<button class="a4" plain="true" bindtap="modalTap">20℃</button>
+<text>\n</text>
+</view>
+<view class="a6">
+<view class="a2">室内相对湿度</view>
+<button class="a4" plain="true" bindtap="codalTap">50%</button>
+<text>\n</text>
+<view class="a2">查看结果</view>
+<view class="a3">恭喜你！目前花花生长状况良好！</view>
+<view class="a5">期待花花的养成吧！</view>
+<image src="../image/EMOJI-01.png"></image>
+<image src="../image/花 花盆 两朵花.png"></image>
+<view class="a3">目前花花的生长环境不太适宜哦！</view>
+<view class="a5">在花花百科里查看参数吧！</view>
+<image src="../image/EMOJI-17.png"></image>
+<image src="../image/花 浇水 鲜花 玫瑰花.png"></image>
+</view>

@@ -1,0 +1,86 @@
+/* pages/message/message.wxss */
+.bg{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background: url('https://bpic.588ku.com/element_origin_min_pic/19/11/30/227eaa03f81bc38a387ab7add67eefe6.jpg') 
+no-repeat #000;
+background-size:cover;
+z-index:-1;
+}
+.bg-image{
+    width : 100%;
+    height : 100%;
+}
+.a{
+  text-align: center;
+  color:black;
+  font-weight: bolder;
+  font-size: 140%;
+   border:5px solid rgba(183, 0, 255, 0);
+   background-color: rgba(245, 245, 220, 0);
+}
+.ffff{
+  display:flex;
+  align-items:center;
+justify-content:center;
+width:100%;
+height:100%;
+
+}
+.a2{
+  text-align: center;
+  color:rgba(5, 109, 48, 0.781);
+  font-weight: bolder;
+  margin-bottom:10px;
+  margin-top:5px;
+}
+.f{
+  text-align:center;
+  font-weight:bolder;
+  font-size:20px;
+  margin-top:10px;
+}
+.a3{
+  text-align: center;
+  color: crimson;
+}
+.a4{
+   font-size:100%;
+    border:2px solid rgb(50, 167, 35);
+}
+.a5{
+   text-align: center;
+   color: crimson;
+}
+.a6{
+  border:5px solid rgba(183, 0, 255, 0);
+}
+.imagesize{
+ display:flex;
+ justify-content: center;
+}
+.imagesize image { 
+  width:700rpx;
+  height:430rpx;
+  }
+  .btn-index{
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: beige;
+  color: black;
+  border-radius: 98rpx; 
+}
+.inputindex{
+  color:aliceblue;
+  border-radius: 15px;
+  margin: 0 0 18px 18px;
+  width: 270px;
+  height: 2.8rem;
+  min-height: 2.8rem;
+  border:2px solid rgb(124, 122, 122);
+  text-align:center;
+
+}

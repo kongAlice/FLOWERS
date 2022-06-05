@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/message/message",
+        "pages/heidong/heidong",
+        "pages/ceshi/ceshi"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#FFA500",
+        "navigationBarTitleText": "阳小花",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "selectedColor": "#A9A9A9",
+        "list": [
+            {
+                "selectedIconPath": "pages/image/花花 花 花朵 植物 (1).png",
+                "iconPath": "pages/image/花花 花 花朵 植物.png",
+                "pagePath": "pages/message/message",
+                "text": "花花参数"
+            },
+            {
+                "selectedIconPath": "pages/image/花 浇水 鲜花 玫瑰花 (1).png",
+                "iconPath": "pages/image/花 浇水 鲜花 玫瑰花.png",
+                "pagePath": "pages/ceshi/ceshi",
+                "text": "花花百科"
+            },
+            {
+                "selectedIconPath": "pages/image/heidong.png",
+                "iconPath": "pages/image/heidong2.png",
+                "pagePath": "pages/heidong/heidong",
+                "text": "花卉网"
+            }
+        ],
+        "color": "2F4F4F",
+        "backgroundColor": "#FFFACD",
+        "borderStyle": "white",
+        "position": "bottom"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}
